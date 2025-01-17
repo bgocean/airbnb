@@ -1,13 +1,13 @@
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import Main from "./components/Main";
 
 function App() {
   return (
     <div>
       <Header />
-      <Main />
-      <Footer />
+      {/* <Main /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
@@ -15,5 +15,3 @@ function App() {
 export default App;
 
 
-// https://www.youtube.com/live/np5bD3YU1Fg 
-// 30.30
