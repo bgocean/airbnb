@@ -13,7 +13,7 @@ function Header() {
           <div className="header__search">
             <SearchBar />
           </div>
-          <div className="header__user">USER MENU</div>
+          <div className="header__user"></div>
         </div>
       </div>
     </header>
