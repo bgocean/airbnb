@@ -1,6 +1,10 @@
 .link {
     padding: 0 20px;
     height: 24px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
   
     font-family: var(--font-family);
     font-weight: 600;

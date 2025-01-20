@@ -7,13 +7,13 @@ const SearchBar = () => {
     <div className="searchbar">
       <div className="searchbar__btns-wrapper">
         <div className="searchbar__btn">
-          <Link />
+          <Link text="Anywhere" />
         </div>
         <div className="searchbar__btn">
-          <Link />
+          <Link text="Any week" />
         </div>
         <div className="searchbar__btn">
-          <Link />
+          <Link text="Add guests" style="light" />
         </div>
       </div>
       <button className="searchbar__btn-search">
@@ -24,6 +24,3 @@ const SearchBar = () => {
 };
 
 export default SearchBar;
-
-// https://www.youtube.com/watch?v=np5bD3YU1Fg
-// 1.15.02
