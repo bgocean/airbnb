@@ -15,22 +15,6 @@
   align-items: center;
 }
 
-.searchbar__btn {
-  padding: 0 20px;
-  height: 24px;
-
-  font-family: var(--font-family);
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 157%;
-  color: #222;
-
-  &--light {
-    font-weight: 400;
-    color: #717171;
-  }
-}
-
 .searchbar__btn:not(:last-child) {
   border-right: 1px solid #ddd;
 }
