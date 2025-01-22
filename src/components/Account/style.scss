@@ -1,0 +1,24 @@
+.account{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 21px;
+    padding: 6px 6px 6px 13px;
+    width: 77px;
+    height: 42px;
+}
+
+.account_nav-icon{
+    display: flex;
+    align-items: center;
+}
+
+.account_avatar{
+    display: flex;
+    align-items: center;
+}
+
+// 1.53.00

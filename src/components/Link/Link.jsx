@@ -10,7 +10,7 @@ const Link = ({ text, style, icon }) => {
   // );
 
   return (
-    <a href="#" className={`link ${style === "light" ? "link--light" : ""}`}>
+    <a href="#" className={`link ${style === "light" ? "link--light" : undefined}`}>
       {/* проверка на наличие иконки */}
       {icon && <img src={icon} alt="" />}   
       {text}
@@ -20,4 +20,3 @@ const Link = ({ text, style, icon }) => {
 
 export default Link;
 
-// 1.31.00
