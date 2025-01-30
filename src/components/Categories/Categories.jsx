@@ -11,7 +11,9 @@ const Categories = () => {
       <div className="container">
         <div className="categories__row">
           <div className="categories__list">
-            <CategoryItem title="Lakefront" img="./img/categories/02.svg" />
+            {categoriesData.map((cat) => {
+              return <CategoryItem title={cat.title} img={cat.img} />;
+            })}
           </div>
           <div className="categories__filter">
             <FilterBtn />
@@ -23,5 +25,3 @@ const Categories = () => {
 };
 
 export default Categories;
-
-// 2.26.00
