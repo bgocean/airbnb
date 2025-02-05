@@ -1,4 +1,6 @@
 import Card from "./Card/Card";
+import cardsData from "./../data/data.json";
+
 const Main = () => {
   return (
     <main className="main">

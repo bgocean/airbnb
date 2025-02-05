@@ -1,0 +1,39 @@
+.card {
+}
+
+.img {
+  margin-bottom: 12px;
+}
+
+.descWrapper {
+}
+
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 127%;
+  color: #222;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.desc {
+}
+
+.date {
+}
+
+.price {
+}
