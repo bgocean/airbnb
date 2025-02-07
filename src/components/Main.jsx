@@ -6,6 +6,9 @@ const Main = () => {
     <main className="main">
       <div className="container">
         <div className="main__cards">
+          {cardsData.map((item, index) => {
+            return <Card data={item} key={index} />;
+          })}
           <Card />
         </div>
       </div>

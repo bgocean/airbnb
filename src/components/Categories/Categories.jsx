@@ -11,8 +11,10 @@ const Categories = () => {
       <div className="container">
         <div className="categories__row">
           <div className="categories__list">
-            {categoriesData.map((cat) => {
-              return <CategoryItem title={cat.title} img={cat.img} />;
+            {categoriesData.map((cat, index) => {
+              return (
+                <CategoryItem title={cat.title} img={cat.img} key={index} />
+              );
             })}
           </div>
           <div className="categories__filter">

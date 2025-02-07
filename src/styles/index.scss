@@ -1,2 +1,11 @@
 @import './reset.scss';
 @import './vars.scss';
+
+
+.main__cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px 24px;
+}
+
+// 3.00.01

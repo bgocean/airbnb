@@ -32,4 +32,3 @@ const Card = () => {
 
 export default Card;
 
-// 2.53.40
