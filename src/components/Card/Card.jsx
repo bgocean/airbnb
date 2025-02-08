@@ -1,34 +1,41 @@
 import starIcon from "./star.svg";
 import styles from "./style.module.scss";
 
-const Card = () => {
+const Card = ({ data }) => {
+  // console.log("data", data);
+
+  const { title, desc, rating, price_per_night, dates_available, img, img2x } =
+    data;
+
   return (
     <article className={styles.card}>
+      <a className="styles.link" href="#"></a>
       <img
+        src={img}
+        srcSet={`${img2x} 2x`}
         className={styles.img}
-        src="./img/objects/01.jpg"
-        srcSet="./img/objects/01@2x.jpg 2x"
-        alt="image"
+        alt={data.title}
       />
 
       <div className={styles.descWrapper}>
         <div className={styles.titleWrapper}>
-          <h3 className={styles.title}>Title</h3>
+          <h3 className={styles.title}>{title}</h3>
           <div className={styles.rating}>
             <img src={starIcon} alt="Star" />
-            5.0
+            {rating}
           </div>
         </div>
       </div>
 
-      <p className={styles.desc}>Description</p>
-      <p className={styles.date}>Apr 16 – 21</p>
+      <p className={styles.desc}>{desc}</p>
+      <p className={styles.date}>{dates_available}</p>
       <p className={styles.price}>
-        <strong>$388</strong> night
+        <strong>${price_per_night}</strong> night
       </p>
     </article>
   );
 };
 
 export default Card;
+
 

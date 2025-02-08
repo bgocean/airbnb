@@ -9,7 +9,6 @@ const Main = () => {
           {cardsData.map((item, index) => {
             return <Card data={item} key={index} />;
           })}
-          <Card />
         </div>
       </div>
     </main>
